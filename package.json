@@ -1,5 +1,4 @@
 {
-  "homepage": "<https://itisratnesh.github.io/Keep-Notes>",
   "name": "using-pre-built-react-components",
   "version": "1.0.0",
   "description": "",
@@ -17,13 +16,10 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
